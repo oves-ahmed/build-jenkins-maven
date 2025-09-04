@@ -1,0 +1,300 @@
+Sep 04 11:24:51 vm-devops-mgmt-01 systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5078.[0m
+Sep 04 11:24:51 vm-devops-mgmt-01 jenkins[11096]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-amd64, which is older than the minimum required version (Java 17).
+Sep 04 11:24:51 vm-devops-mgmt-01 jenkins[11096]: Supported Java versions are: [17, 21]
+Sep 04 11:24:51 vm-devops-mgmt-01 jenkins[11096]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 04 11:24:51 vm-devops-mgmt-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 04 11:24:51 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 04 11:24:51 vm-devops-mgmt-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5078 and the job result is failed.[0m
+Sep 04 11:24:52 vm-devops-mgmt-01 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 04 11:24:52 vm-devops-mgmt-01 systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5165 and the job result is done.[0m
+Sep 04 11:24:52 vm-devops-mgmt-01 systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5165.[0m
+Sep 04 11:24:52 vm-devops-mgmt-01 jenkins[11142]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-amd64, which is older than the minimum required version (Java 17).
+Sep 04 11:24:52 vm-devops-mgmt-01 jenkins[11142]: Supported Java versions are: [17, 21]
+Sep 04 11:24:52 vm-devops-mgmt-01 jenkins[11142]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 04 11:24:52 vm-devops-mgmt-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 04 11:24:52 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 04 11:24:52 vm-devops-mgmt-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5165 and the job result is failed.[0m
+Sep 04 11:24:52 vm-devops-mgmt-01 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 04 11:24:52 vm-devops-mgmt-01 systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5252 and the job result is done.[0m
+Sep 04 11:24:52 vm-devops-mgmt-01 systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5252.[0m
+Sep 04 11:24:53 vm-devops-mgmt-01 jenkins[11195]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-amd64, which is older than the minimum required version (Java 17).
+Sep 04 11:24:53 vm-devops-mgmt-01 jenkins[11195]: Supported Java versions are: [17, 21]
+Sep 04 11:24:53 vm-devops-mgmt-01 jenkins[11195]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 04 11:24:53 vm-devops-mgmt-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 04 11:24:53 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 04 11:24:53 vm-devops-mgmt-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5252 and the job result is failed.[0m
+Sep 04 11:24:53 vm-devops-mgmt-01 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 04 11:24:53 vm-devops-mgmt-01 systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5339 and the job result is done.[0m
+Sep 04 11:24:53 vm-devops-mgmt-01 systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5339.[0m
+Sep 04 11:24:53 vm-devops-mgmt-01 jenkins[11261]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-amd64, which is older than the minimum required version (Java 17).
+Sep 04 11:24:53 vm-devops-mgmt-01 jenkins[11261]: Supported Java versions are: [17, 21]
+Sep 04 11:24:53 vm-devops-mgmt-01 jenkins[11261]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 04 11:24:53 vm-devops-mgmt-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 04 11:24:53 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 04 11:24:53 vm-devops-mgmt-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5339 and the job result is failed.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5426 and the job result is done.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5426.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 jenkins[11320]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-amd64, which is older than the minimum required version (Java 17).
+Sep 04 11:24:54 vm-devops-mgmt-01 jenkins[11320]: Supported Java versions are: [17, 21]
+Sep 04 11:24:54 vm-devops-mgmt-01 jenkins[11320]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5426 and the job result is failed.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5513 and the job result is done.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 04 11:24:54 vm-devops-mgmt-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5513 and the job result is failed.[0m
+Sep 04 11:26:55 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Sep 04 11:26:55 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 04 11:26:55 vm-devops-mgmt-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5600 and the job result is failed.[0m
+Sep 04 11:27:08 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Sep 04 11:27:08 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 04 11:27:08 vm-devops-mgmt-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5687 and the job result is failed.[0m
+Sep 04 11:27:47 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Sep 04 11:27:47 vm-devops-mgmt-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 04 11:27:47 vm-devops-mgmt-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 5774 and the job result is failed.[0m
